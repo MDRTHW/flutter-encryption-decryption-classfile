@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     plainText = tec.text;
                     setState(() {
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   child: Text("Encrypt"),
                 ),
                 SizedBox(width: 15,),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     setState(() {
                       encryptedText =
